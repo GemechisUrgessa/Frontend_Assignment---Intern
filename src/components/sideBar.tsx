@@ -22,7 +22,7 @@ const SideBar = (): JSX.Element => {
                     </li>
                 </ul>
             </nav> */}
-            <Nav className="flex-sm-column h-50" variant=" black">
+            <Nav style={{ color: "white!important" }} className="flex-sm-column h-50">
                 <Nav.Link href="/home"><FcHome /> HOME</Nav.Link>
                 <Nav.Link eventKey="link-1"><FcSearch /> SEARCH</Nav.Link>
                 <Nav.Link eventKey="link-2"> <MdFavorite /> FAVORITE</Nav.Link>

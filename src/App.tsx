@@ -3,15 +3,20 @@ import './App.css';
 import Header from './components/header';
 import SideBar from './components/sideBar';
 import Main from './components/main';
+import Stack from 'react-bootstrap/Stack';
+
+
 function App() {
   return (
-    <div className="container-wrapper">
-      <SideBar />
-      <div className="container--inner-wrapper">
-        <Header />
-        <Main />
-      </div>
-    </div>
+    < >
+      <Stack direction="horizontal">
+        <SideBar />
+        <Stack direction="vertical">
+          <Header />
+          <Main />
+        </Stack>
+      </Stack>
+    </>
   );
 }
 
