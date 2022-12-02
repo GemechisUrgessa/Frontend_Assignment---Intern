@@ -1,12 +1,16 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.css';
-
+import Header from './components/header';
+import SideBar from './components/sideBar';
+import Main from './components/main';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      </header>
+    <div className="container-wrapper">
+      <SideBar />
+      <div className="container--inner-wrapper">
+        <Header />
+        <Main />
+      </div>
     </div>
   );
 }

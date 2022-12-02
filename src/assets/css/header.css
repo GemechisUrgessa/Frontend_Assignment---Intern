@@ -1,0 +1,21 @@
+.header {
+    /* width: 90%; */
+    height: 20vh;
+    background-color: rgb(250, 76, 76);
+    color: white;
+    text-align: right;
+}
+.header__content{
+    float: right;
+    margin: 2em 3em 0 0; 
+}
+.sun-icon {
+    color: rgb(252, 216, 14);
+}
+.night-icon {
+    color: black;
+}
+.header img {
+    width: 100%;
+    height: 100%;
+}
